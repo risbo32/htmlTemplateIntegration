@@ -1,0 +1,34 @@
+.contener{
+    width: 68%;
+    margin: 0 auto;
+    padding-top:45px ;
+    clear: none;
+    &::after, &::before{
+        display: none;
+    }
+}
+
+.two-grid{
+    width: 50%;
+    float: left;
+    padding-right:24px ;
+    p{
+        font-size: 14px;
+        line-height: 19px;
+        color: #999999;
+    }
+}
+
+.gallery{
+    position: relative;
+    .gallery-item{
+      position: relative;
+
+    }
+    .gallery-col-one{
+      width: 90px;
+    }
+    .gallery-col-two{
+          width: 90px;
+    }
+}

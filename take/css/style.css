@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif; }
+
+body, footer {
+  box-sizing: border-box; }
+
+header {
+  width: 100%; }
+
+section {
+  width: 100%;
+  min-height: 90px;
+  color: #222626;
+  backface-visibility: #ffffff; }
+  section .section-title {
+    font-size: 27px;
+    margin-bottom: 20px;
+    font-weight: 200;
+    color: #222626; }
+
+.contener {
+  width: 68%;
+  margin: 0 auto;
+  padding-top: 45px;
+  clear: none; }
+  .contener::after, .contener::before {
+    display: none; }
+
+.two-grid {
+  width: 50%;
+  float: left;
+  padding-right: 24px; }
+  .two-grid p {
+    font-size: 14px;
+    line-height: 19px;
+    color: #999999; }
+
+.gallery {
+  position: relative; }
+  .gallery .gallery-item {
+    position: relative; }
+  .gallery .gallery-col-one {
+    width: 90px; }
+  .gallery .gallery-col-two {
+    width: 90px; }
+
+.header {
+  height: 725px;
+  background-color: #132831;
+  background-image: url("../imgs/bckg.png");
+  background-blend-mode: overlay;
+  background-size: cover;
+  color: #eeeeee; }
+  .header .logo {
+    margin: 0; }
+    .header .logo:hover {
+      filter: brightness(1.5); }
+  .header .titles {
+    margin-top: 270px;
+    font-size: 45px; }
+    .header .titles .subtitle {
+      font-size: 15px;
+      width: 357px;
+      line-height: 32px; }
+
+#section1 {
+  height: 413px; }
+
+#section-ban {
+  background-image: url("../imgs/voiture.png");
+  background-attachment: fixed;
+  background-color: #132831;
+  background-blend-mode: overlay;
+  height: 660px;
+  position: relative;
+  color: white; }
+  #section-ban img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: inherit;
+    z-index: -1;
+    filter: brightness(0.3); }
+  #section-ban .section-ban-block-text {
+    width: 406px;
+    position: absolute;
+    bottom: 46px; }
+    #section-ban .section-ban-block-text .title {
+      font-size: 45px;
+      color: white;
+      font-weight: 200; }
+    #section-ban .section-ban-block-text p {
+      color: #888888;
+      font-size: 12px;
+      line-height: 18px; }
+
+#section-green {
+  background: #82ca9c; }
+
+footer {
+  height: 460px;
+  background: #192431; }

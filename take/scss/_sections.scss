@@ -1,0 +1,42 @@
+#section1{
+    height: 413px;
+    
+}
+
+#section-ban{
+    background-image:url("../imgs/voiture.png") ;
+    background-attachment: fixed;
+    background-color: #132831;
+    background-blend-mode: overlay;
+    height: 660px;
+    position: relative; 
+    color: white;
+    img{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: inherit;
+        z-index: -1;
+        filter: brightness(0.3);
+    }
+    .section-ban-block-text{
+        width: 406px ;
+        position: absolute;
+        bottom: 46px;
+        .title{
+            font-size: 45px;
+            color: white;
+            font-weight: 200;
+        }
+        p{
+            color: #888888;
+            font-size: 12px;
+            line-height: 18px;
+        }
+    }
+}
+#section-green{
+    background: $brightGreen;
+}

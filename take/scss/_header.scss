@@ -1,0 +1,26 @@
+.header{
+    height: 725px;
+    background-color:#132831 ;
+    background-image:url("../imgs/bckg.png") ;
+    background-blend-mode:overlay;
+    background-size:cover ;
+    color: #eeeeee;
+
+    .logo{
+        margin: 0;
+        &:hover{
+            filter: brightness(1.5);
+        }
+    }
+
+    .titles{ 
+      margin-top: 270px;
+      font-size: 45px;
+      .subtitle{
+          font-size: 15px;
+          width: 357px;
+          line-height: 32px;     
+      }
+    }
+    
+}
