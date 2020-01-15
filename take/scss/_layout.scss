@@ -20,15 +20,63 @@
 }
 
 .gallery{
+    margin: 0 auto;
+    width: 75%;
+    margin-top: 40px;
     position: relative;
-    .gallery-item{
-      position: relative;
+    display: grid;
+    height: 422px;
+    width: 100%;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 212px 212px;
+    grid-gap: 0px;
+    color: #ffffff;
+    & > div{
+     
+     font-size: 30px;
+     padding-left:32px ;
+     padding-right:32px ;
+     padding-top:38px ;
+
+     .gallery-item-title {
+      font-size: 22px;
+      font-weight: 200;
+      margin: 0;
+     }
+     p{
+         font-size: 13px;
+         line-height:16px ;
+         color: #eeeeee;
+     }
+     .gallery-item-footer{
+         margin-top:10px ;
+         font-size: 14px;
+         display: inline-block;
+         &::after{
+            content: "→";
+            transition: 0.4s  ease-in-out;
+            margin-left: 5px;
+         }
+         &:hover{
+             &::after{
+                margin-left: 19px;
+             }
+         }
+     }
+    }
+
+    .gallery-item-two-colums{
+        grid-column-start: 1;
+        grid-column-end: 3;
 
     }
-    .gallery-col-one{
-      width: 90px;
-    }
-    .gallery-col-two{
-          width: 90px;
-    }
+    
 }
+
+.bck-pink{ background: $pinkColor !important; }
+.bck-green{ background: $brightGreen !important; }
+.bck-darkblue{ background: $darkBlueColor !important;}
+.bck-darkblue-overlay{ background: url("../imgs/other-img.png") !important; background-size: cover; background-repeat: no-repeat !important; }
+.bck-purple{ background: $brightPurple !important; }
+.bck-red-overlay{ background: url("../imgs/grid_img.png")!important; background-repeat: no-repeat !important; background-size: cover; }
+.bck-flower{ background: url("../imgs/flower.png")!important; background-repeat: no-repeat !important; background-size: cover !important; }
