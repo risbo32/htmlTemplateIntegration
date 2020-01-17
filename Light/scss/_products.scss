@@ -1,0 +1,32 @@
+.product-contener{
+    width: 80%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+   margin: 0 auto;
+}
+
+.item-product{
+    margin-top: 34px ;
+    width: 174px;
+    min-height: 276px;
+    margin-right: 15px;
+    border: 1px solid #bebebe;
+    display: inline-block;
+    padding-bottom: 12px;
+    text-align: center;
+    img{
+        display: block;
+        width: inherit;
+    }
+    .title-product{
+     color: #747171;
+     font-size: 15px;
+     font-weight: 100;
+     margin-bottom:18px ;
+    }
+    .title-price{
+     color: #4b4949;
+     font-size: 15px;
+     font-weight: 800;
+    }
+}

@@ -1,0 +1,17 @@
+.btn{
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background: $highLighColor;
+    padding-left:14px ;
+    padding-right: 14px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+  &:hover{
+      color: $highLighColor;
+     border: 1px solid $highLighColor;
+     background: #ffffff;
+  }
+}
