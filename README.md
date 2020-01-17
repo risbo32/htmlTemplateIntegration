@@ -14,4 +14,4 @@ Screenshots
 
 Html, Css
 
-![Alt text](htmlTimeline/htmlTimeline.png)
+![Alt text](htmlTimeline/htmlTimeline.PNG)
