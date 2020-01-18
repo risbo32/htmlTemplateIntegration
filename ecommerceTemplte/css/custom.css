@@ -1,0 +1,79 @@
+body {
+  background: #f3f3f3; }
+
+.mynav {
+  margin: 0 !important;
+  border-radius: 0 !important;
+  background: #f10e34;
+  position: absolute !important;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  color: #ffffff !important; }
+
+.navbar-link {
+  color: white !important;
+  transition: 0.3s; }
+  .navbar-link:hover {
+    color: #f10e34 !important; }
+
+header {
+  background: #222222;
+  height: 142px;
+  position: relative;
+  color: #ffffff; }
+
+footer {
+  color: #eeeeee;
+  position: relative; }
+
+.footer-bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0; }
+
+.drker-bckground {
+  padding-bottom: 33px;
+  padding-top: 33px;
+  background: #1f1e1e; }
+
+#banner {
+  height: 390px;
+  background: #dddddd;
+  background: #ffc666;
+  position: relative; }
+  #banner h4 {
+    margin: 3px; }
+  #banner p {
+    color: #dddddd;
+    margin-top: 0; }
+  #banner .bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 67px;
+    background: #f10e34;
+    color: #eee; }
+
+.container {
+  width: 73%; }
+
+.bck-white {
+  background: #ffffff; }
+
+hr {
+  background: #f3f3f3;
+  height: 4px; }
+
+h4 {
+  padding-top: 10px; }
+
+.active {
+  background: #f10e34 !important;
+  border-color: #f10e34 !important; }
+
+.navbar-brand {
+  padding: 15px 9px !important;
+  margin-right: 4px; }
